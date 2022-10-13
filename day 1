@@ -1,0 +1,27 @@
+**********SQL Basic DAY 1***********
+REVISION OF LIKE OPERATOR:
+The below table has column "Country".Select records where the value of the country column ends with letter "n".
+-----------------
+Input
+------------------
+Country
+-------------------
+India
+Pakistan
+Afghanistan
+Iran
+Russia
+
+Output
+-------------
+Pakistan
+Afghanistan
+Iran
+
+--------------------------------------------------------------------------------------------------------------------
+
+create table country(country varchar(20));
+insert into country values('India'), ('Pakistan'), ('Afghanistan'), ('Iran'), ('Russia');
+
+select country from country
+where country like '%n';
