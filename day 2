@@ -1,0 +1,25 @@
+**********SQL Basic DAY 2***********
+REVISION OF LIKE OPERATOR:
+The below table "Table" has column "Country".
+Select records where the value of first letter of the country column starts with anything from "a" to "f".
+-----------------
+Input
+------------------
+Country
+-------------------
+India
+Pakistan
+Afghanistan
+Bangladesh
+Iran
+Russia
+
+Output
+-------------
+Afghanistan
+Bangladesh
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Select country from country where country like
+'[a-f]%';
