@@ -1,0 +1,27 @@
+**********SQL Basic DAY 3***********
+REVISION OF LIKE OPERATOR:
+Use of underscore character-->
+The underscore sign (_) represents one, single character.
+The below table "Table" has column "Country".
+Select records that have "a" in the second position.
+-----------------
+Input
+------------------
+Country
+-------------------
+India
+Pakistan
+Afghanistan
+Bangladesh
+Iran
+Russia
+
+Output
+-------------
+Pakistan
+Bangladesh
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+select * from country
+where lower(country) like '_a%';
